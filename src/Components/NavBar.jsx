@@ -7,21 +7,21 @@ class NavBar extends Component {
         <Navbar>
             <Navbar.Header>
                 <Navbar.Brand>
-                <a href="#home">Jonathan Wong</a>
+                <a href="/">Jonathan Wong</a>
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav pullRight>
-                <NavItem eventKey={1} href="#">
+                <NavItem eventKey={1} href="/">
                 Home
                 </NavItem>
                 <NavItem eventKey={2} href="#">
-                Resume
+                Experience
                 </NavItem>
                 <NavItem eventKey={3} href="#">
                 Personal Projects
                 </NavItem>
-                <NavItem eventKey={4} href="#">
-                Experience
+                <NavItem eventKey={4} href="/resume">
+                Resume
                 </NavItem>
             </Nav>
         </Navbar>
